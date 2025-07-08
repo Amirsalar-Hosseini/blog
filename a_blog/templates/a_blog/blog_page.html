@@ -7,6 +7,12 @@
 {% block content %}
 
     <div class="max-w-[1600px] mx-auto px-8 py-24">
+    
+    {% if tag %}
+    	<div class="text-neutral-400">
+        Articles tagged with "{{ tag }}"
+        </div>
+    {% endif %} 
 
         <div class="grid mt-8 gap-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {% for article in articles %}
