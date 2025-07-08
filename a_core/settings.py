@@ -175,4 +175,4 @@ ACCOUNT_LOGIN_METHODS = {'email', 'username'}
 ACCOUNT_SIGNUP_FIELDS = ['email*', 'username*', 'password1*', 'password2*']
 
 WAGTAIL_SITE_NAME = 'blog'
-WAGTAILADMIN_BASE_URL = 'http://localhost:8000'
+WAGTAILADMIN_BASE_URL = 'http://mywebsite.com'
